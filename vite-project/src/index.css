@@ -1,0 +1,27 @@
+body{
+  font-family:'Times New Roman', Times, serif
+}
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display{
+  height: 250px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25 ease;
+}
+.color-display p{
+  font-size: 1.5rem;
+}
